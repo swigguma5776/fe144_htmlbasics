@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keywords" content="HTML, Tables, BlockQuotes, CodeBlocks">
+    <meta name="author" content="AlexSwiggum">
+    <title>Adding Some Cool Tables, Quotes & Code</title>
+</head>
+<body>
+    <!-- Skills Section of My Resume -->
+    <h2>My Super Sweet Tech Skills</h2>
+    <table border="1">
+        <!-- TR is for adding a new row -->
+        <tr> 
+            <!-- TH is for adding a new header -->
+            <th>Languages</th>
+            <!-- TD for adding additional data in your table -->
+            <td>CSS</td>
+            <td>Python</td>
+            <td>HTML</td>
+            <td>JavaScript</td>
+            <td>TypeScript</td>
+            <td>SQL</td>
+        </tr>
+        <tr>
+            <th>Frameworks &amp; Libraries</th>
+            <td>Flask</td>
+            <td>Django</td>
+            <td>React</td>
+        </tr>  
+    </table>
+    
+    <br>
+    <hr>
+    <br>
+    
+    <!-- Adding Quotes to our Page. Very niche -->
+    
+    <blockquote cite="https://holesquotes.com">
+        "I'm tired of this grandpa. Well that's just too damn bad."   
+    </blockquote>
+    <p>One of my favorite movies is Super Troopers. Even though Farva is kinda a dits he's got some good moments. 
+        Some good quotes. Like this one <q cite="https://supertroopersquotes.com">Hey farva what's that restaurant you love going to? You mean Shenanigans?</q></p>
+    
+    <br>
+    <hr>
+    <br>
+    
+    <!-- Adding Codeblocks to our page -->
+    
+    <h3>Adding some cool Python Code</h3>
+    <pre><code>
+    students = ['James', 'Daniel', 'Mary']
+
+    for student in students:
+        print(student)</code></pre>
+        
+        
+    <!-- Embedding Images -->
+    
+    <hr>
+    <h1>Multi Media Embedding</h1>
+    
+    <img src="./static/kayakshenanigans.webp" alt="image of kayak" style="width:100px;">
+    
+    <br>
+    
+    <audio controls>
+        <source src="./static/invalid_keypress.mp3" type="audio/mp3">
+        Your Browser does not support this audio element.
+    </audio>
+    
+    <br>
+    
+    <video width='500' controls>
+        <source src="./static/Praline-Tin-GIF-Official_Proxy.mp4" type="video/mp4">
+        Your Browser does not support this video element. 
+    </video>
+    
+    <br>
+    
+    <!-- iframes is for embedding more external resources & has more attributes -->
+    <iframe width='500' height='300' src="https://www.youtube.com/embed/XO_DTLq-YM0" 
+    allow="acceleromter; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>  
+    </iframe>
+    
+    
+    
+</body>
+</html>
